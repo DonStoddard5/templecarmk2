@@ -4,6 +4,8 @@
 
 ## Starting the program
 
+Words
+
 ## Controling the Car
 
 The car uses modified WASD controls to move. See "test.py" below.
