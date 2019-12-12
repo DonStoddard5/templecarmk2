@@ -18,4 +18,6 @@ usbwriter.py records speed, steering, and an image every # seconds and stores it
 
 ```
 /templecar/src/{filename}.csv
-```1
+```
+
+words
