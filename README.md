@@ -4,7 +4,7 @@
 
 ## Starting the program
 
-Words
+1) 
 
 ## Controling the Car
 
