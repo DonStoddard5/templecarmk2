@@ -41,3 +41,7 @@ Publishes keyboard inputs from a computer connected to the same network as the R
 ### drive.py
 
 Subscribes to the 'driving' topic and controls the car using the speed and steering data. This data is converted to a PWM signal for the car to interprite. 
+
+### usb_cam
+
+Streams the image from the USB camera. 
