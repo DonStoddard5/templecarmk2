@@ -4,9 +4,11 @@
 
 ## Starting the program
 
+1) 
+
 ## Controling the Car
 
-The car uses modified WASD controls to move.
+The car uses modified WASD controls to move. See "test.py" below.
 
 W/A moves the car forwards and back
 
@@ -32,4 +34,16 @@ Each line represents a new dataset, and the data is saved in the following forma
 
 ## System Architecture
 
-words
+![architecture](readmeimages/SystemArchitecture.JPG)
+
+### test.py
+
+Publishes keyboard inputs from a computer connected to the same network as the Raspberry Pi. Based on keyboard inputs from the user, it publishes speed and steering data to the topic 'driving'.
+
+### drive.py
+
+Subscribes to the 'driving' topic and controls the car using the speed and steering data. This data is converted to a PWM signal for the car to interprite. 
+
+### usb_cam
+
+Streams the image from the USB camera. 
