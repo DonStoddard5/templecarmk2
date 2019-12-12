@@ -16,4 +16,6 @@ Q/E turn the wheels and move the car forward simutaneously
 
 usbwriter.py records speed, steering, and an image every # seconds and stores it in:
 
-```/templecar/src/{filename}.csv
+```
+/templecar/src/{filename}.csv
+```1
